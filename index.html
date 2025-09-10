@@ -1,1 +1,176 @@
-Test
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Learning Progress - SIWES</title>
+  <style>
+    :root {
+      --primary-color: #1a237e;
+      --bg-color: #f8f9fa;
+      --section-bg: #fff;
+      --highlight-bg: #e3f2fd;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: var(--bg-color);
+      color: #222;
+    }
+    .container {
+      max-width: 800px;
+      margin: 2rem auto;
+      padding: 1rem;
+    }
+    h1, h2 {
+      color: var(--primary-color);
+    }
+    section {
+      background: var(--section-bg);
+      border-radius: 8px;
+      padding: 1.2rem 2rem;
+      margin-bottom: 1.5rem;
+      box-shadow: 0 2px 6px rgba(60,72,88,0.07);
+    }
+    ul, ol {
+      padding-left: 1.2rem;
+    }
+    .github-link {
+      color: #24292f;
+      text-decoration: underline;
+      word-break: break-all;
+    }
+    .highlight {
+      background: var(--highlight-bg);
+      border-left: 4px solid var(--primary-color);
+      padding: 0.5em 1em;
+      margin: 1em 0;
+    }
+
+    @media (max-width: 600px) {
+      .container {
+        max-width: 100%;
+        margin: 0;
+        padding: 0.5rem;
+      }
+      section {
+        padding: 1rem 0.7rem;
+        margin-bottom: 1rem;
+      }
+      h1 {
+        font-size: 1.6rem;
+      }
+      h2 {
+        font-size: 1.18rem;
+      }
+    }
+    @media (max-width: 400px) {
+      h1 {
+        font-size: 1.2rem;
+      }
+      h2 {
+        font-size: 1rem;
+      }
+      section {
+        padding: 0.7rem 0.3rem;
+      }
+    }
+    .final-statement {
+      text-align: center;
+      margin: 2rem 0 1rem 0;
+      font-size: 1.15rem;
+      color: #fff;
+      background: #1a237e;
+      border-radius: 6px;
+      padding: 1rem;
+      letter-spacing: 1px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>My Learning Progress on SIWES</h1>
+
+    <section>
+      <h2>1. What I Have Learned So Far</h2>
+      <ul>
+        <li>Introduction to <strong>Git</strong> and <strong>GitHub</strong></li>
+        <li>How to install and use <strong>GitHub Desktop</strong></li>
+        <li>How to create a GitHub account</li>
+        <li>How to create a repository on GitHub</li>
+        <li>How to push my projects to GitHub using GitHub Desktop</li>
+        <li>How to host my project with <strong>GitHub Pages</strong></li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>2. What is Git and GitHub?</h2>
+      <div class="highlight">
+        <strong>Git</strong> is a version control system that allows you to track changes in your code and collaborate with others.<br>
+        <strong>GitHub</strong> is a platform for hosting your Git repositories online, making it easy to share your code and collaborate.
+      </div>
+    </section>
+
+    <section>
+      <h2>3. What is GitHub Desktop?</h2>
+      <div class="highlight">
+        <strong>GitHub Desktop</strong> is a free application that makes it easier to manage your GitHub repositories from your computer with a user-friendly interface—no command line needed!
+      </div>
+    </section>
+
+    <section>
+      <h2>4. How to Create a GitHub Account</h2>
+      <ol>
+        <li>Go to <a class="github-link" href="https://github.com/" target="_blank">https://github.com/</a></li>
+        <li>Click on <strong>Sign up</strong> and fill in your details (username, email, password).</li>
+        <li>Verify your email and complete the setup.</li>
+      </ol>
+    </section>
+
+    <section>
+      <h2>5. How to Create a Repository</h2>
+      <ol>
+        <li>After logging in, click the <strong>+</strong> icon at the top right and select <strong>New repository</strong>.</li>
+        <li>Enter a name and description for your repository.</li>
+        <li>Choose public or private, then click <strong>Create repository</strong>.</li>
+      </ol>
+    </section>
+
+    <section>
+      <h2>6. How to Use GitHub Desktop to Push Projects</h2>
+      <ol>
+        <li>Download and install GitHub Desktop from <a class="github-link" href="https://desktop.github.com/" target="_blank">desktop.github.com</a>.</li>
+        <li>Sign in with your GitHub account.</li>
+        <li>Clone your repository or create a new one from GitHub Desktop.</li>
+        <li>Copy or create your project files inside the repository folder on your computer.</li>
+        <li>Use GitHub Desktop to <strong>commit</strong> your changes and <strong>push</strong> them to GitHub.</li>
+      </ol>
+    </section>
+
+    <section>
+      <h2>7. How to Host a Project on GitHub Pages</h2>
+      <ol>
+        <li>Go to your repository on GitHub.</li>
+        <li>Click on <strong>Settings</strong> &gt; <strong>Pages</strong> in the sidebar.</li>
+        <li>Under <strong>Source</strong>, select the branch (usually <code>main</code>) and root folder, then click <strong>Save</strong>.</li>
+        <li>Your site will be published at <code>https://&lt;your-username&gt;.github.io/&lt;repository-name&gt;/</code></li>
+      </ol>
+    </section>
+
+    <section>
+      <h2>8. My Repository Example</h2>
+      <p>
+        You can check out my work here: 
+        <a class="github-link" href="https://github.com/Bilalgarko/My-first-project-on-SIWES" target="_blank">
+          Bilalgarko/My-first-project-on-SIWES
+        </a>
+      </p>
+    </section>
+    <div class="final-statement">
+      IF YOU WANT TO LEARN HOW TO MAKE THIS YOU CAN STILL DO IT, HOW? COME TO GEEKINK
+    </div>
+  </div>
+</body>
+</html>
